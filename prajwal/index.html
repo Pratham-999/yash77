@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ 
+    <meta name="viewport" content="with=device-width",initial-scale="1.0"> 
+    <title>ACS website Design</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+       
+<body>
+       
+ 
+       
+       
+
+ <section class="header"> 
+ </section> 
+ <nav id="sideNav"> 
+<ul> 
+    <li><a href="index.html">HOME</a></li> 
+    <li><a href="ABOUT US.html">ABOUT US</a></li> 
+    <li><a href="Courses.html">COURSES</a></li> 
+    <li><a href="rotating%20gallery.html">STAFF</a></li> 
+    <li><a href="facility.html">FACILITIES</a></li> 
+    <li><a href="PLACEMENT.html">PLACEMENT</a></li> 
+    <li><a href="feedback.html">REVIEWS</a></li> 
+    <li><a href="gallery.html">GALLERY</a></li> 
+    <li><a href="CONTACT US.html">CONTACT</a></li> 
+</ul> 
+ </nav> 
+ <img src="images/red.png" id="menuBtn"> 
+
+ <script> 
+     var menuBtn =document.getElementById("menuBtn"); 
+      var sideNav =document.getElementById("sideNav"); 
+     sideNav.style.right="-250px"; 
+     menuBtn.onclick = function(){ 
+         if(sideNav.style.right=="-250px"){ 
+             sideNav.style.right="0"; 
+         } 
+         else{ 
+             sideNav.style.right="-250px"; 
+         } 
+     } 
+ 
+   
+    </script> 
+      
+</body> 
+</html>
